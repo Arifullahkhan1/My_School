@@ -32,9 +32,9 @@
     ************** LineHeight **********
     *********************************/
 
-     --line-height-sm:  1 rem;
+     --line-height-sm:  1rem;
      --line-height-md:  1.6rem;
-     --line-height-l:   3 rem;
+     --line-height-lg:   3rem;
 
      /*****************************
     ************** Shadows ***
@@ -46,30 +46,32 @@
      /*****************************
     ************** Distances ***
     ******************************/
-    --distance-0: 0 rem;
-    --distance-1: .25 rem;
-    --distance-2: .5 rem;
+    --distance-0: 0rem;
+    --distance-1: .25rem;
+    --distance-2: .5rem;
     --distance-3: .75rem;
-    --distance-4:  1 rem;
-    --distance-5: 1.25 rem;
-    --distance-6: 1.5 rem;
-    --distance-7: 1.75 rem;
-    --distance-8: 2 rem;
-    --distance-9: 2.25 rem;
-    --distance-10: 2.5 rem;
-    --distance-11: 2.75 rem;
-    --distance-12: 3.25 rem;
-    --distance-13: 3.5 rem;
-    --distance-14: 3.75 rem;
-    --distance-15: 4 rem;
+    --distance-4:  1rem;
+    --distance-5: 1.25rem;
+    --distance-6: 1.5rem;
+    --distance-7: 1.75rem;
+    --distance-8: 2rem;
+    --distance-9: 2.25rem;
+    --distance-10: 2.5rem;
+    --distance-11: 2.75rem;
+    --distance-12: 3rem;
+    --distance-13: 3.25rem;
+    --distance-14: 3.5rem;
+    --distance-15: 3.75rem;
+   --distance-16:   4rem;
+    
 /*****************************
     ****** Borders ***
     ******************************/
 
-    --border-xs-white: 0.1rem solid var(var(--color-white));
-    --border-xs: .1rem solid var(var(var(--color-light)));
-    --border-sm: .2rem solid var(var(--color-light));
-    --border-lg: .4rem solid var(var(--color-white));
+    --border-xs-white: 0.1rem solid var(--color-white);
+    --border-xs: .1rem solid var(--color-light);
+    --border-sm: .2rem solid var(--color-light);
+    --border-lg: .4rem solid var(--color-white);
 
 
     --border-redius-sm: .25rem;
@@ -113,7 +115,7 @@
     .bg-success, .btn-success{background-color: var(--color-success);}
     .bg-info, .btn-info{background-color: var(--color-info);}
     .bg-warning, .btn-warning{background-color: var(--color-warning);}
-    .bg-dager, .btn-danger{background-color: var(--color-danger);}
+    .bg-danger, .btn-danger{background-color: var(--color-danger);}
     .bg-light, .btn-light{background-color: var(--color-light);}
     .bg-dark, .btn-dark{background-color: var(--color-dark);}
     .bg-white, .btn-white{background-color: var(--color-white);}
