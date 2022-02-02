@@ -75,6 +75,8 @@
 
 
     --border-redius-sm: .25rem;
+    /*--border-redius-smi: .5rem;*/
+
     --border-success: .2rem solid var(--border-color-success);
     --border-transparent: .1 rem solid var (var(--border-transparent))
 
