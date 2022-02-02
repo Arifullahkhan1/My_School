@@ -9,6 +9,7 @@
 /** Typography */
 
 .text-decoration-none{text-decoration: none;}
+.text-center{text-align: center;}
 
 .lh-sm { line-height: var(--line-height-sm); }
 .lh-md{line-height: var(--line-height-md);}
@@ -74,10 +75,36 @@ nav div a:not(:first-child){margin-left: var(--distance-12);}
 
 /* picture sizew*/
 .logo-width{ max-width: 13rem;}
+/* .SlidShow */
+
+.slider-width{width: 400%;} /* 100 % per picture*/
+.slider-container{width: 25%;} /* Display first pic of 4 pictures*/
+.slider-image{width: 100%; object-fit: cover;}
+.slider-animation{animation: 30s slider-keyframes infinite;}
+@keyframes slider-keyframes {
+    0%{left: 0%;}
+    15%{left: -100%;}
+    30%{left: -200%;}
+    45%{left: -300%;}
+    60%{left: -200%;}
+    75%{left: -100%;}
+    100%{left: 0%;}
+    
+}
+
+
 /*circal*/
 .circal{border-radius: 100%;}
 /*Shadows*/
 .shadow-sm{box-shadow: var(--shadow-small-light);}
+
+
 /*Postion*/
 .position-relative{position: relative !important; }
 .position-absolute{position: absolute !important;}
+.overflow-hidden{overflow: hidden;}
+.centerXY{
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
