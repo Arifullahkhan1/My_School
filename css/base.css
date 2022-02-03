@@ -113,6 +113,8 @@
     ******* Background Colores ***
     ******************************/
 
+    .bg-nice, .btn-nice {background-color: var(--color-nice);}
+
     .bg-primary, .btn-primary {background-color: var(--color-primary);}
     .bg-secondary, .btn-secondary{background-color: var(--color-secondy);}
     .bg-success, .btn-success{background-color: var(--color-success);}

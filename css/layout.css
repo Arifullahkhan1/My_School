@@ -8,6 +8,10 @@
 
 .pr-4, .px-4 {padding-right: var(--distance-4);}
 .pl-4, .px-4 {padding-left:   var(--distance-4);}
+
+.pr-2, .py-2 {padding-top: var(--distance-2);}
+.pl-2, .py-2 {padding-bottom:   var(--distance-2);}
+
 .pr-12, .px-12 {padding-right: var(--distance-12);}
 .pl-12, .px-12  {padding-left:   var(--distance-12);}
 
@@ -96,7 +100,11 @@ nav div a:not(:first-child){margin-left: var(--distance-12);}
 .border-radiusi{border-radius: var(--border-redius-smi);}
 .border-bottom-xs{border-bottom: var(--border-xs);}
 .border-sm{border: var(--border-sm);}
+.border-lg{border: var(--border-lg);}
+
 .border-transparent{border: var(--border-transparent);}
+.border-radius{border-radius: var(--border-redius-sm);}
+
 
 /* picture sizew*/
 .logo-width{ max-width: 13rem;}
@@ -138,4 +146,10 @@ nav div a:not(:first-child){margin-left: var(--distance-12);}
     transform: translate(-50%, -50%);
 }
 
-/* */
+/* Back ground imAGE*/
+.statistics-image{
+    background-image: url('../images/fun-facts/fun-facts-bg-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
