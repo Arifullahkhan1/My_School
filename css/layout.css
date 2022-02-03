@@ -17,6 +17,7 @@
 
 .text-decoration-none{text-decoration: none;}
 .text-center{text-align: center;}
+.text-bold{font-weight: bold;}
 
 .lh-sm { line-height: var(--line-height-sm); }
 .lh-md{line-height: var(--line-height-md);}
@@ -43,6 +44,7 @@ height: .3rem;
 /** Width */
 
 .max-width{max-width: 192rem;}
+.card-width{max-width: 60rem;}
 
 /* Feature widht*/
 .f-width{max-width: 33%;}
@@ -91,13 +93,14 @@ nav div a:not(:first-child){margin-left: var(--distance-12);}
 /*  Borders*/
 .border-small-white{border: var(--border-xs-white);}
 .border-radius{border-radius: var(--border-redius-sm);}
-/*.border-radiusi{border-radius: var(--border-redius-smi);}*/
+.border-radiusi{border-radius: var(--border-redius-smi);}
 .border-bottom-xs{border-bottom: var(--border-xs);}
 .border-sm{border: var(--border-sm);}
 .border-transparent{border: var(--border-transparent);}
 
 /* picture sizew*/
 .logo-width{ max-width: 13rem;}
+.img-lg-width{max-width: 60%;}
 /* .SlidShow */
 
 .slider-width{width: 400%;} /* 100 % per picture*/

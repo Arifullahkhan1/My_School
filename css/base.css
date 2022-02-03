@@ -2,6 +2,7 @@
     /***********
     *** Colors ***
     ************/
+    --color-nice:#A44CD3;
     --color-primary:#a597e7;
     --color-secondary:#6c757d;
     --color-success:#b5d56a;
@@ -75,7 +76,7 @@
 
 
     --border-redius-sm: .25rem;
-    /*--border-redius-smi: .5rem;*/
+  --border-redius-smi: .5rem;
 
     --border-success: .2rem solid var(--border-color-success);
     --border-transparent: .1 rem solid var (var(--border-transparent))
@@ -141,6 +142,7 @@
     .text-dark{color: var(--color-dark);}
     .text-white{color: var(--color-white);}
     .text-cozy{color: var(--color-cozy);}
+    .text-nice{color:var(--color-nice);}
 
     /*****************************
     ******* Border Colors ***
