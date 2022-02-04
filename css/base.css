@@ -26,8 +26,9 @@
      --display-sm: 1.6rem;
      --display-md: 1.8rem;
      --display-lg: 2rem;
-     --display-xl: 1.5rem;
+     --display-xl: 2.5rem;
      --display-xxl: 3rem;
+     --display-fit: 1.7rem;
 
      /********************************
     ************** LineHeight **********
@@ -145,6 +146,7 @@
     .text-white{color: var(--color-white);}
     .text-cozy{color: var(--color-cozy);}
     .text-nice{color:var(--color-nice);}
+    .text-dark-transparent{color:var(--color-dark-transparent);}
 
     /*****************************
     ******* Border Colors ***
