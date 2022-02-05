@@ -24,16 +24,24 @@
   
      .flex-xs-column{flex-direction: column;}
      .img-xs-width {max-width: 150% !important;}
+     .heading-xxs-width{width: 100% !important;}
+
 
 
   }
 
   @media screen and (max-width: 23.4375em){
     .rubric-text-size-info{font-size: var(--display-xl);}
+    .heading-xxs-width{width: 100% !important;}
+
 
 
   }
   @media screen and (max-width: 22.5em){
+    .heading-xxs-width{width: 100% !important;}
+
+  }
+  @media screen and (max-width: 25.6875){
     .heading-xxs-width{width: 100% !important;}
 
   }
